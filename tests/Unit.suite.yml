@@ -1,0 +1,9 @@
+---
+actor: UnitTester
+modules:
+  enabled:
+    - Asserts
+    - Yii2:
+        part: [orm]
+        transaction: false
+        cleanup: false
